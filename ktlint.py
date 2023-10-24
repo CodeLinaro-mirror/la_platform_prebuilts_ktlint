@@ -73,6 +73,10 @@ def main(args=None):
         'no-consecutive-blank-lines',
         'import-ordering',
         'comment-wrapping',
+        'argument-list-wrapping',
+        'spacing-between-declarations-with-comments',
+        'annotation-spacing',
+        'multiline-if-else',
     ]
 
   ktlint_args = kt_files[:]
